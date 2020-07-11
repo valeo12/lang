@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Laravel-lang by caouecs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Laravel-lang</h1>
+      <h2 class="project-tagline">List of 75 languages for Laravel 4, 5, 6 and 7</h2>
+      <a href="https://github.com/caouecs/Laravel-lang" class="btn">View on GitHub</a>
+      <a href="https://github.com/caouecs/Laravel-lang/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/caouecs/Laravel-lang/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="laravel-lang" class="anchor" href="#laravel-lang" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Laravel-lang</h1>
+<p>In this repository, you can find the lang files for the framework PHP, <a href="https://laravel.com">Laravel 4/5/6/7</a>.</p>
+<h2>
+<a id="new" class="anchor" href="#new" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>New</h2>
+<ul>
+<li>in version 6.1, we propose a new file by language: <code>validation-inline.php</code> ( see #1268 )</li>
+<li>in future version 7, we will have new directory names to follow ISO-15897 ( see #1269 )</li>
+</ul>
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install</h2>
+<h4>
+<a id="via-composer" class="anchor" href="#via-composer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Via Composer</h4>
+<ul>
+<li>For Laravel 7.x : run <code>composer require caouecs/laravel-lang:~6.1</code> in your project folder</li>
+<li>For Laravel 6.x : run <code>composer require caouecs/laravel-lang:~5.0</code> in your project folder</li>
+<li>For Laravel 5.8 : run <code>composer require caouecs/laravel-lang:~4.0</code> in your project folder</li>
+<li>For Laravel 5.1-5.7 : run <code>composer require caouecs/laravel-lang:~3.0</code> in your project folder</li>
+<li>For Laravel 5 : run <code>composer require caouecs/laravel-lang:~2.0</code> in your project folder</li>
+<li>For Laravel 4 : run <code>composer require caouecs/laravel-lang:~1.0</code> in your project folder</li>
+<li>Files of languages are in "vendor/caouecs/laravel-lang" directory</li>
+<li>Copy the folders of languages that you want, in the <em>resources/lang</em> folder of your Laravel application (<em>app/lang</em> in Laravel 4).</li>
+</ul>
+<h4>
+<a id="via-github" class="anchor" href="#via-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Via GitHub</h4>
+<ul>
+<li>Clone the <a href="https://github.com/caouecs/laravel-lang/">GitHub repository</a> : <em>git clone <a href="https://github.com/caouecs/Laravel-lang.git">https://github.com/caouecs/Laravel-lang.git</a></em>
+</li>
+<li>Or download the <a href="https://github.com/caouecs/laravel-lang/archive/master.zip">zip file</a>
+</li>
+<li>Choose the branch:
+<ul>
+<li>
+<code>laravel4</code> for Laravel 4 project</li>
+<li>
+<code>master</code> for Laravel 5, 6, 7 projects</li>
+</ul>
+</li>
+<li>Copy the folders of languages that you want, in <em>resources/lang</em> folder of your Laravel application (<em>app/lang</em> in Laravel 4).</li>
+</ul>
+<h4>
+<a id="via-svn" class="anchor" href="#via-svn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Via SVN</h4>
+<p>Run this in your project directory:</p>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c"><span class="pl-c">#</span> Laravel 5:</span>
+svn <span class="pl-k">export</span> https://github.com/caouecs/Laravel-lang/trunk/src/[language-code] resources/lang/[language-code]
+
+<span class="pl-c"><span class="pl-c">#</span> Laravel 4:</span>
+svn <span class="pl-k">export</span> https://github.com/caouecs/Laravel-lang/branches/laravel4/[language-code] app/lang/[language-code]</pre></div>
+<p>Replace <code>[language-code]</code> by any of the languages listed <a href="src">here</a>.</p>
+<h2>
+<a id="usage-laravel-only" class="anchor" href="#usage-laravel-only" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage [Laravel only]</h2>
+<p>In the file <em>config/app.php</em>, change the value of <em>locale</em> by the short name of your language (<em>app/config/app.php</em> in Laravel 4).</p>
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
+<p>Please see <a href="CONTRIBUTING.md">CONTRIBUTING</a> for details.</p>
+<h2>
+<a id="status-of-files" class="anchor" href="#status-of-files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Status of files</h2>
+<ul>
+<li>Check the <a href="todo.md">todo.md</a> file to see the missing translations.</li>
+</ul>
+<h2>
+<a id="projects-based-on-this-package" class="anchor" href="#projects-based-on-this-package" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projects based on this package</h2>
+<ul>
+<li>
+<a href="https://github.com/ARCANEDEV/LaravelLang">LaravelLang by ARCANEDEV</a> - Translations manager and checker for Laravel.</li>
+<li>
+<a href="https://github.com/overtrue/laravel-lang">Laravel-lang by overtrue</a> - Command to add languages in your project.</li>
+<li>
+<a href="https://github.com/andrey-helldar/laravel-lang-publisher">laravel-lang-publisher by Andrey Helldar</a> - Easy installation and update of translation files for your project.</li>
+</ul>
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+<ul>
+<li><a href="https://github.com/caouecs">caouecs</a></li>
+<li><a href="https://github.com/caouecs/Laravel-lang/graphs/contributors">All Contributors</a></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/caouecs/Laravel-lang">Laravel-lang</a> is maintained by <a href="https://github.com/caouecs">caouecs</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
