@@ -1,9 +1,8 @@
-name: Laravel4-lang
+name: Laravel-lang
 pygments: true
-slogan: Internationalization of Laravel 4
-url: http://caouecs.github.io/Laravel4-lang/
-title: Laravel4-lang
-description: List of languages for Laravel4
-google_analytics: 
+slogan: Internationalization of Laravel
+url: http://caouecs.github.io/Laravel-lang/
+title: Laravel-lang
+description: List of languages for Laravel
 show_downloads: true
 theme: jekyll-theme-midnight
