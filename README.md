@@ -1,4 +1,4 @@
-Laravel4-lang
+Laravel-lang
 =============
 
-Website of the project Laravel4-lang, languages for Laravel4
+Website of the project Laravel-lang, languages for Laravel
